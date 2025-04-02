@@ -1,29 +1,42 @@
 {
-  "name": "student-attendance-system",
-  "version": "0.1.0",
+  "name": "smart-student-attendance-frontend",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@radix-ui/react-slot": "^1.1.2",
-    "autoprefixer": "^10.4.21",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.483.0",
-    "next": "15.2.3",
-    "postcss": "^8.5.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "student-attendance-system": "file:",
-    "tailwind-merge": "^3.0.2",
-    "tw-animate-css": "^1.2.4"
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@fontsource/roboto": "^5.1.0",
+    "@mui/icons-material": "^6.1.1",
+    "@mui/material": "^6.1.1",
+    "@mui/x-charts": "^7.18.0",
+    "axios": "^1.7.7",
+    "react": "^18.3.1",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-slick": "^0.30.2",
+    "react-webcam": "^7.2.0",
+    "recharts": "^2.12.7",
+    "slick-carousel": "^1.8.1",
+    "smart-student-attendance-frontend": "file:"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4.0.15"
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "vite": "^5.4.1"
   }
 }
